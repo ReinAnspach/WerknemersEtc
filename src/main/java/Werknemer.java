@@ -1,4 +1,4 @@
-public abstract class Werknemer implements Werkneembaar {
+public abstract class Werknemer implements Werkneembaar, Comparable {
         private int id;
         private String naam;
 
@@ -34,7 +34,7 @@ public abstract class Werknemer implements Werkneembaar {
             if(otherObject == null) return false;
             if( !(otherObject instanceof Werknemer)) return false;
             Werknemer otherWerknemer = (Werknemer)otherObject;
-            return this.id == otherWerknemer.id ;
+            return this.getSalaris() == otherWerknemer.getSalaris() ;
         }
     }
 

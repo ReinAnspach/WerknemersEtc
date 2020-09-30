@@ -1,4 +1,4 @@
-public interface Werkneembaar {
+public interface Werkneembaar extends Comparable{
 
     public abstract void setId(int id) ;
 

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9b318f-e1eb-44bf-878a-615e9400edc4" name="Default Changelist" comment="" />
+    <list default="true" id="3e9b318f-e1eb-44bf-878a-615e9400edc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TijdelijkeWerknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TijdelijkeWerknemer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VasteWerknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VasteWerknemer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Werkneembaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Werkneembaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Werknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Werknemer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WerknemerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WerknemerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TijdelijkeWerknemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TijdelijkeWerknemer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VasteWerknemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VasteWerknemer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Werkneembaar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Werkneembaar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WerknemerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WerknemerTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -26,23 +41,28 @@
     </option>
   </component>
   <component name="ProjectId" id="1iBT3jlnPQct8NIocoygDHWr6Au" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WerknemerTests.werknemersSorterenOpSalaris">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,8 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WerknemerTests.werknemersSorterenOpSalaris" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WerknemersEtc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WerknemerTests" />
+      <option name="METHOD_NAME" value="werknemersSorterenOpSalaris" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WerknemerTests.werknemersSorterenOpSalaris" />
         <item itemvalue="JUnit.WerknemerTests.eenAantalWerknemersSorterenOpSalaris" />
       </list>
     </recent_temporary>
@@ -71,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601379789558</updated>
-      <workItem from="1601379790823" duration="1279000" />
+      <workItem from="1601379790823" duration="5635000" />
+      <workItem from="1601451608043" duration="1448000" />
     </task>
     <servers />
   </component>
@@ -83,22 +115,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601380705797" />
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1601381134418">
+    <state width="1556" height="292" key="GridCell.Tab.0.bottom" timestamp="1601452720043">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601381134418" />
-    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1601381134418">
+    <state width="1556" height="292" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601452720043" />
+    <state width="1556" height="292" key="GridCell.Tab.0.center" timestamp="1601452720042">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601381134418" />
-    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1601381134418">
+    <state width="1556" height="292" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601452720042" />
+    <state width="1556" height="292" key="GridCell.Tab.0.left" timestamp="1601452720041">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601381134418" />
-    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1601381134418">
+    <state width="1556" height="292" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601452720041" />
+    <state width="1556" height="292" key="GridCell.Tab.0.right" timestamp="1601452720042">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601381134418" />
+    <state width="1556" height="292" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601452720042" />
     <state x="330" y="83" key="Maven.ArtifactSearchDialog" timestamp="1601380648439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

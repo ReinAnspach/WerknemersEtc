@@ -1,4 +1,4 @@
-public  class TijdelijkeWerknemer extends Werknemer implements Comparable {
+public  class TijdelijkeWerknemer extends Werknemer {
 
 
     private int aantalUren;
@@ -43,12 +43,9 @@ public  class TijdelijkeWerknemer extends Werknemer implements Comparable {
 
         TijdelijkeWerknemer otherTijdelijkeWerknemer = (TijdelijkeWerknemer) otherObject;
         boolean areIdsEqual = this.getId() == otherTijdelijkeWerknemer.getId();
-
-        //In het echt zul je waarschijnlijk op id vergelijken
         boolean areNamesEqual = this.getNaam().equalsIgnoreCase(otherTijdelijkeWerknemer.getNaam());
         return areIdsEqual && areNamesEqual;
     }
-
 
     public int compareTo(Object otherObject) {
         Werkneembaar otherWerkneembaar = (Werkneembaar) otherObject;

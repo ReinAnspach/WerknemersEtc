@@ -1,4 +1,4 @@
-public class VasteWerknemer extends Werknemer implements Comparable {
+public class VasteWerknemer extends Werknemer {
 
 
     private int salarisSchaal;
@@ -33,22 +33,11 @@ public class VasteWerknemer extends Werknemer implements Comparable {
         VasteWerknemer otherVW = (VasteWerknemer) otherObject;
         return this.getId() == otherVW.getId();
 
-
-
-
-
-
-
     }
 
-
-    public int compareTo(Object otherObject){
+    public int compareTo(Object otherObject) {
         Werkneembaar otherWerkneembaar = (Werkneembaar) otherObject;
-        this.getSalaris();
-        int otherWerkneembaarSalaris = otherWerkneembaar.getSalaris();
-        return otherWerkneembaarSalaris;
-
-
+        return this.getSalaris() - otherWerkneembaar.getSalaris();
     }
 
     }

@@ -130,33 +130,60 @@ public class WerknemerTests {
     }
 
     @Test
-    void eenAantalWerknemersSorterenOpSalaris() {
+    void werknemersSorterenOpSalaris() {
 
         Werkneembaar[] werkneemBaren = getWerkneemBaren();
 
-        printWerkneembaren(werkneemBaren);
-
-        Comparable comparable;
-
         Arrays.sort(werkneemBaren);
 
-        printWerkneembaren(werkneemBaren);
+        printWerkneembarenSalaris(werkneemBaren);
+
+        //Comparable comparable;
+
+        //Arrays.sort(werkneemBaren);
+
+        //printWerkneembarenNaam(werkneemBaren);
+
+        //Arrays.sort(werkneemBaren);
+
+        //printWerkneembarenID(werkneemBaren);
+
+
+
+
     }
 
     private Werkneembaar[] getWerkneemBaren() {
         Werknemer v1 = new VasteWerknemer(1, "Sjoerd", 12);
-        Werknemer v2 = new VasteWerknemer(2, "Dave", 15);
-        Werknemer t1 = new TijdelijkeWerknemer(3, "Evan", 40, 250);
+        Werknemer v2 = new VasteWerknemer(3, "Dave", 15);
+        Werknemer t1 = new TijdelijkeWerknemer(2, "Evan", 40, 250);
         Werknemer t2 = new TijdelijkeWerknemer(4, "Sam", 40, 250);
 
         return new Werkneembaar[]{v1, v2, t1, t2};
     }
 
-    private void printWerkneembaren(Werkneembaar[] werkneemBaren) {
+    private void printWerkneembarenSalaris(Werkneembaar[] werkneemBaren) {
         for (Werkneembaar w : werkneemBaren) {
             System.out.println(w.getNaam() + " verdient " + w.getSalaris());
         }
     }
+
+    private void printWerkneembarenNaam(Werkneembaar[] werkneemBaren) {
+        for (Werkneembaar w : werkneemBaren) {
+            System.out.println(w.getNaam() + " is " + w.getNaam());
+        }
+
+
+    }
+
+    private void printWerkneembarenID(Werkneembaar[] werkneemBaren) {
+        for (Werkneembaar w : werkneemBaren) {
+            System.out.println(w.getNaam() + " is " + w.getId());
+        }
+    }
+
+
+
 }
 
 
