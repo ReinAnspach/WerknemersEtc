@@ -130,13 +130,13 @@ public class WerknemerTests {
     }
 
     @Test
-    void werknemersSorterenOpID() {
+    void werknemersSorterenOpNaam() {
 
         Werkneembaar[] werkneemBaren = getWerkneemBaren();
 
         Arrays.sort(werkneemBaren);
 
-        printWerkneembarenID(werkneemBaren);
+        printWerkneembarenNaam(werkneemBaren);
 
         //Comparable comparable;
 
@@ -170,7 +170,7 @@ public class WerknemerTests {
 
     private void printWerkneembarenNaam(Werkneembaar[] werkneemBaren) {
         for (Werkneembaar w : werkneemBaren) {
-            System.out.println(w.getNaam() + " is " + w.getNaam());
+            System.out.println(w.getNaam() + " heet " + w.getNaam());
         }
 
 

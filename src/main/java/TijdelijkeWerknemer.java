@@ -49,6 +49,8 @@ public  class TijdelijkeWerknemer extends Werknemer {
 
     public int compareTo(Object otherObject) {
         Werkneembaar otherWerkneembaar = (Werkneembaar) otherObject;
-        return this.getId() - otherWerkneembaar.getId();
+        return this.getNaam().compareTo(otherWerkneembaar.getNaam());
+
     }
+
 }
