@@ -25,7 +25,7 @@ public class ComparatorTestjes {
 
         private void printWerkneembaren(Werkneembaar[] werkneemBaren) {
             for (Werkneembaar w : werkneemBaren) {
-                System.out.println(w.getNaam() + " verdient " + w.getSalaris());
+                System.out.println(w.getNaam() + " heeft ID " + w.getId());
             }
         }
     }

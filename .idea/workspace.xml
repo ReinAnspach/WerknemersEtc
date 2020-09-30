@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9b318f-e1eb-44bf-878a-615e9400edc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WerknemerComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ComparatorTestjes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Werknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Werknemer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TijdelijkeWerknemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TijdelijkeWerknemer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VasteWerknemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VasteWerknemer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Werkneembaar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Werkneembaar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Werknemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Werknemer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WerknemerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WerknemerTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="3e9b318f-e1eb-44bf-878a-615e9400edc4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601379789558</updated>
       <workItem from="1601379790823" duration="5635000" />
-      <workItem from="1601451608043" duration="3819000" />
+      <workItem from="1601451608043" duration="4173000" />
     </task>
     <servers />
   </component>
@@ -146,22 +135,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601380705797" />
-    <state width="1556" height="292" key="GridCell.Tab.0.bottom" timestamp="1601455369322">
+    <state width="1556" height="292" key="GridCell.Tab.0.bottom" timestamp="1601455720007">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601455369322" />
-    <state width="1556" height="292" key="GridCell.Tab.0.center" timestamp="1601455369321">
+    <state width="1556" height="292" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601455720007" />
+    <state width="1556" height="292" key="GridCell.Tab.0.center" timestamp="1601455720006">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601455369321" />
-    <state width="1556" height="292" key="GridCell.Tab.0.left" timestamp="1601455369321">
+    <state width="1556" height="292" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601455720006" />
+    <state width="1556" height="292" key="GridCell.Tab.0.left" timestamp="1601455720006">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601455369321" />
-    <state width="1556" height="292" key="GridCell.Tab.0.right" timestamp="1601455369321">
+    <state width="1556" height="292" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601455720006" />
+    <state width="1556" height="292" key="GridCell.Tab.0.right" timestamp="1601455720006">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="292" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601455369321" />
+    <state width="1556" height="292" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601455720006" />
     <state x="330" y="83" key="Maven.ArtifactSearchDialog" timestamp="1601380648439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

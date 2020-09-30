@@ -6,7 +6,7 @@ public class WerknemerComparator  implements Comparator {
         public int compare(Object object1, Object object2) {
             Werknemer w1  = (Werknemer) object1;
             Werknemer w2 = (Werknemer) object2;
-            return w1.getSalaris() - w2.getSalaris();
+            return w1.getId() - w2.getId();
         }
 
     }
