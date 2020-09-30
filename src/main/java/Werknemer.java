@@ -1,4 +1,4 @@
-public abstract class Werknemer implements Werkneembaar, Comparable {
+public abstract class Werknemer implements Werkneembaar {
         private int id;
         private String naam;
 
@@ -23,7 +23,7 @@ public abstract class Werknemer implements Werkneembaar, Comparable {
             return naam;
         }
 
-        @Override
+        /*@Override
         public String toString() {
             return "Werknemer[id = " + getId() + " naam = " + getNaam();
         }
@@ -35,6 +35,6 @@ public abstract class Werknemer implements Werkneembaar, Comparable {
             if( !(otherObject instanceof Werknemer)) return false;
             Werknemer otherWerknemer = (Werknemer)otherObject;
             return this.getNaam() == otherWerknemer.getNaam() ;
-        }
+        }*/
     }
 
