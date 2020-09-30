@@ -34,7 +34,7 @@ public abstract class Werknemer implements Werkneembaar, Comparable {
             if(otherObject == null) return false;
             if( !(otherObject instanceof Werknemer)) return false;
             Werknemer otherWerknemer = (Werknemer)otherObject;
-            return this.getSalaris() == otherWerknemer.getSalaris() ;
+            return this.getId() == otherWerknemer.getId() ;
         }
     }
 

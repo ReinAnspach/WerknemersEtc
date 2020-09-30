@@ -130,13 +130,13 @@ public class WerknemerTests {
     }
 
     @Test
-    void werknemersSorterenOpSalaris() {
+    void werknemersSorterenOpID() {
 
         Werkneembaar[] werkneemBaren = getWerkneemBaren();
 
         Arrays.sort(werkneemBaren);
 
-        printWerkneembarenSalaris(werkneemBaren);
+        printWerkneembarenID(werkneemBaren);
 
         //Comparable comparable;
 
